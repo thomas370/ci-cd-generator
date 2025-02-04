@@ -1,0 +1,20 @@
+{
+  "name": "ci-cd-generator",
+  "version": "1.0.0",
+  "description": "Le CI/CD (Continuous Integration / Continuous Deployment) est une méthode utilisée en développement logiciel pour automatiser le processus de test, de build et de déploiement des applications. Il permet de livrer du code plus rapidement et de manière plus fiable.\r Pourquoi utiliser CI/CD ?",
+  "homepage": "https://github.com/thomas370/ci-cd-generator#readme",
+  "bugs": {
+    "url": "https://github.com/thomas370/ci-cd-generator/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thomas370/ci-cd-generator.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

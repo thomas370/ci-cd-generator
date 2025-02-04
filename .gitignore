@@ -1,0 +1,28 @@
+# Node.js
+node_modules/
+
+# Fichiers de logs
+*.log
+
+# Fichiers de configuration IDE
+.vscode/
+.idea/
+
+# Dossiers de build
+/dist/
+build/
+
+# Fichiers de configuration
+*.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Fichiers temporaires
+*.swp
+*.swo
+*.bak
+
+# Dossiers générés
+/.github/workflows/
