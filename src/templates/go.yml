@@ -1,0 +1,24 @@
+name: Go CI
+
+on: [push, pull_request]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 🛠 Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: ☕ Set up Go
+        uses: actions/setup-go@v4
+        with:
+          go-version: '1.21'
+
+      - name: 📦 Install dependencies
+        run: go mod tidy
+
+      - name: 🔄 Build
+        run: go build -v ./...
+
+      - name: ✅ Run Tests
+        run: go test -v ./...
